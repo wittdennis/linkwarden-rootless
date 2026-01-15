@@ -1,0 +1,11 @@
+Dockerfile
+.dockerignore
+.gitignore
+README.md
+LICENCE
+.vscode
+.azuredevops
+.github
+build
+dist
+node_modules

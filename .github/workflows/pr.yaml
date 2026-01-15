@@ -1,0 +1,10 @@
+name: pr
+
+on: [pull_request]
+
+jobs:
+  build:
+    uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@1.13.2
+    with:
+      image-name: linkwarden-rootless
+      create-artifacts: false

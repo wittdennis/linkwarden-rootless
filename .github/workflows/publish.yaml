@@ -1,0 +1,13 @@
+name: publish-image
+
+on:
+  release:
+    types: published
+
+jobs:
+  publish:
+    uses: wittdennis/pipelines/.github/workflows/container-image-publish.yaml@1.13.2
+    with:
+      image-name: linkwarden-rootless
+    secrets:
+      registry-password: ${{ secrets.DOCKER_REGISTRY_TOKEN }}
