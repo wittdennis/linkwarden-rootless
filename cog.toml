@@ -28,4 +28,4 @@ template = "remote"
 
 [bump_profiles]
 
-[packages]
+[monorepo.packages]
