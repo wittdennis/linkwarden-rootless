@@ -18,9 +18,9 @@ jobs:
           git config user.email github-actions@github.com
 
       - name: install cocogitto
-        uses: oknozor/cocogitto-action@v3.11
+        uses: cocogitto/cocogitto-action@v4.2.0
         with:
-          check: false
+          command: check
 
       - name: bump version
         id: release
