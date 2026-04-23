@@ -1,4 +1,4 @@
-FROM ghcr.io/linkwarden/linkwarden:v2.14.0
+FROM ghcr.io/linkwarden/linkwarden:v2.14.1
 
 RUN npx playwright install-deps && npx playwright install &&\
     mv /root/.cache /home/node/ &&\
