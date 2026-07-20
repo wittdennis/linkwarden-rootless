@@ -1,10 +1,7 @@
 FROM ghcr.io/linkwarden/linkwarden:v2.15.1
 
-RUN npx playwright install-deps && npx playwright install &&\
-    mv /root/.cache /home/node/ &&\
-    mv /root/.yarn /home/node/ &&\
-    mv /root/.npm /home/node/ &&\
-    mv /root/.config /home/node/ &&\
-    chown -R node:node /data
+# Upstream now installs Playwright into /ms-playwright (world-readable) via
+# PLAYWRIGHT_BROWSERS_PATH, so only /data needs to be writable by the node user.
+RUN chown -R node:node /data
 
 USER node
