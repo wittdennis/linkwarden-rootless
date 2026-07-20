@@ -2,6 +2,44 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.15.1](https://github.com/wittdennis/linkwarden-rootless/compare/0120540617a60764d5a0ad89935039aa09366d46..2.15.1) - 2026-07-20
+#### Features
+- ![BREAKING](https://img.shields.io/badge/BREAKING-red) (**deprecate**) DEPRECATED. This image is now deprecated - ([90f0007](https://github.com/wittdennis/linkwarden-rootless/commit/90f0007141756f4bc7a6025f6fa5cea82e057178)) - Dennis Witt
+#### Continuous Integration
+- (**deps**) update actions/checkout action to v7.0.1 - ([0896bda](https://github.com/wittdennis/linkwarden-rootless/commit/0896bdafa16de55d35c8f719dc3feb25d6942033)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.38 - ([ae8dfe9](https://github.com/wittdennis/linkwarden-rootless/commit/ae8dfe9289195db3a479b766173259858f832b0d)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.37 - ([a0cbe6a](https://github.com/wittdennis/linkwarden-rootless/commit/a0cbe6a1f9f4f39e8b37d606266921ae32485b36)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- (**deps**) update ghcr.io/linkwarden/linkwarden docker tag to v2.15.1 - ([101cecd](https://github.com/wittdennis/linkwarden-rootless/commit/101cecd16aca697177fd4c33ab44388e89bef93b)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.36 - ([a5f807b](https://github.com/wittdennis/linkwarden-rootless/commit/a5f807b6adc4b010895e75e177f2bb8b6df4a34b)) - wittdennis-renovate[bot]
+- (**deps**) update softprops/action-gh-release action to v3.0.2 - ([02bbf14](https://github.com/wittdennis/linkwarden-rootless/commit/02bbf14f9f7ed168f1e45e14a91b86c3aa5c16d3)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.35 - ([91019b1](https://github.com/wittdennis/linkwarden-rootless/commit/91019b171f0001509fce6b1ef8879297b02d1e09)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.34 - ([650c970](https://github.com/wittdennis/linkwarden-rootless/commit/650c970685e959e20bb47eddcd00dae999cfacfc)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.32 - ([1417739](https://github.com/wittdennis/linkwarden-rootless/commit/1417739eac59355bcca6452525dc9eb35da122ce)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.31 - ([c63fc06](https://github.com/wittdennis/linkwarden-rootless/commit/c63fc06d37f2abd097426ad8169ef48192072df4)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.29 - ([438597b](https://github.com/wittdennis/linkwarden-rootless/commit/438597b42b519d0a388ae3eb79ca2b2b45863995)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.28 - ([5758ed5](https://github.com/wittdennis/linkwarden-rootless/commit/5758ed5f5b55f0e4840509df867e9ffcdbdc05bb)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.26 - ([b4a2481](https://github.com/wittdennis/linkwarden-rootless/commit/b4a24819edefdc81a81a4e9669ad251906a1a2fb)) - wittdennis-renovate[bot]
+- (**deps**) update softprops/action-gh-release action to v3.0.1 - ([c0f9f5f](https://github.com/wittdennis/linkwarden-rootless/commit/c0f9f5f1918e844a423555e0be3b7ec69ad9047f)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.25 - ([e93aa04](https://github.com/wittdennis/linkwarden-rootless/commit/e93aa04dda20568a3733c22ab2b4f54e2a81f0e7)) - wittdennis-renovate[bot]
+- (**deps**) update actions/checkout action to v7 - ([8feb494](https://github.com/wittdennis/linkwarden-rootless/commit/8feb494b11f1b655ed0fdc1d6290f54fa6d755bd)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.24 - ([89c579e](https://github.com/wittdennis/linkwarden-rootless/commit/89c579e8c46972d809fcd8c470ea1832673d1600)) - wittdennis-renovate[bot]
+- (**deps**) update actions/checkout action to v6.0.3 - ([503afaf](https://github.com/wittdennis/linkwarden-rootless/commit/503afaf16ea1ad2118be141cd4f30b0dbec906e2)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.23 - ([662829b](https://github.com/wittdennis/linkwarden-rootless/commit/662829b7f1835d8cb302b4d407581b68821dba75)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.22 - ([f3c386d](https://github.com/wittdennis/linkwarden-rootless/commit/f3c386de6e4420c3ab0b1b91d68f45a21b2e64c3)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.21 - ([8bfbde1](https://github.com/wittdennis/linkwarden-rootless/commit/8bfbde11be9f82c30048abc2d8b2404826686554)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.20 - ([9a13df4](https://github.com/wittdennis/linkwarden-rootless/commit/9a13df470cc473fe582ab2402b04eb601f8703d5)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.19 - ([ead6ce7](https://github.com/wittdennis/linkwarden-rootless/commit/ead6ce7f382ab00f5e1673c74ce60b0102239661)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.18 - ([8253de9](https://github.com/wittdennis/linkwarden-rootless/commit/8253de945f681d314ed0d0dd6e1dc5de9d3b5315)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.17 - ([1f4cc35](https://github.com/wittdennis/linkwarden-rootless/commit/1f4cc35fc0c0c7d950304dfe47dbf1ab392cb78e)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.16 - ([dd53f6f](https://github.com/wittdennis/linkwarden-rootless/commit/dd53f6fcbccc1cd4fb10b3ebc1a052f593f452e1)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.15 - ([eea56b6](https://github.com/wittdennis/linkwarden-rootless/commit/eea56b6128bb673dc03a8b6cb596b12d034edd8f)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.14 - ([c8014f9](https://github.com/wittdennis/linkwarden-rootless/commit/c8014f9f09a3eb992f63796e4d691011b45e0fcf)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.13 - ([9e30e97](https://github.com/wittdennis/linkwarden-rootless/commit/9e30e972bc3a92b4b22c5996f63defde2775d35f)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.12 - ([0120540](https://github.com/wittdennis/linkwarden-rootless/commit/0120540617a60764d5a0ad89935039aa09366d46)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.14.1](https://github.com/wittdennis/linkwarden-rootless/compare/804d8deb0a05a49122d094b332e37c57a7b59a9c..2.14.1) - 2026-04-23
 #### Continuous Integration
 - (**deps**) update wittdennis/pipelines action to v2.0.9 - ([a011fbc](https://github.com/wittdennis/linkwarden-rootless/commit/a011fbcc3aad6d0628f0c43ea131327718b14fec)) - wittdennis-renovate[bot]
